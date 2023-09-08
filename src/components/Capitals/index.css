@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg {
+  border: 1px solid gray;
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.innerCard {
+  background-color: white;
+  max-width: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.capitalContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.capitalNameText {
+  font-weight: bold;
+}
+.dropDownStyling {
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.paraCountry {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .dropDownStyling {
+    padding: 8px 6px;
+  }
+}
